@@ -29,4 +29,4 @@ Submit the form
 Upon successful validation and data storage, a success message will be displayed to the user. 
 
 #### Here is what I created:
-![image](https://user-images.githubusercontent.com/106011252/235121365-01725ae7-7507-4cc4-a059-edd7e97874bf.png)
+![image](https://user-images.githubusercontent.com/106011252/235122261-78f37526-04e4-42eb-aa33-1f43a053efd0.png)
