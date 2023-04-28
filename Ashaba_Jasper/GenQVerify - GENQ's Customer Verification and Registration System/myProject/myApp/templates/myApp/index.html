@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <title>KYC Registration form</title>
+</head>
+<body>
+    <div class="container">
+        <div style="background-color: black; padding: 10px;" class="text-center">
+            <h1 style="color: white; font-weight: bold; text-transform: uppercase;">GENQ KYC FORM</h1>
+        </div>
+        <br>
+        <h3 style="color: grey; font-weight: bold;">Bio Data</h3>
+        <hr style="border-top: 3px solid grey;">
+        <form id="regForm" action="#" name="register" onsubmit="return Validate();" method="POST">
+            <div class="row g-2">
+                <div class="col-md">
+                    <input type="text" id="fname" name="firstname" class="form-control" placeholder="First name" aria-label="First name">
+                    <small id="fnameErr"></small>
+                </div>
+                <div class="col-md">
+                    <input type="text" id="lname" name="lastname" class="form-control" placeholder="Last name" aria-label="Last name">
+                    <small id="lnameErr"></small>
+                </div>
+            </div>
+            <br>
+            <div class="row g-2">
+                <div class="col-md">
+                    <input type="text" class="form-control" placeholder="Date Of Birth (DD/MM/YYYY)" name="dob" required>
+                    <small id="dobErr"></small>
+                </div>
+                <div class="col-md">
+                    <select id="gender" name="gender" class="form-select" aria-label="Gender">
+                        <option value="" selected disabled style="color: rgb(155, 155, 155);">Gender</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                    <small id="genderErr"></small>
+                </div>                               
+            </div>
+            <br>
+            <h3 style="color: grey; font-weight: bold;">Location</h3>
+            <hr style="border-top: 3px solid grey;">
+            <div class="row g-2">
+                <div class="col-md">
+                    <input type="text" id="state" name="state" class="form-control" placeholder="State/District" aria-label="State/District">
+                    <small id="stateErr"></small>
+                </div>
+                <div class="col-md">
+                    <input type="text" id="town" name="town" class="form-control" placeholder="Town" aria-label="Town">
+                    <small id="townErr"></small>
+                </div>
+            </div>
+            <br>
+            <div class="row g-2">
+                <div class="col-md">
+                    <input type="text" id="zip" name="zipcode" class="form-control" placeholder="Zip code" aria-label="Zip code">
+                    <small id="zipErr"></small>
+                </div>
+                <div class="col-md">
+                    <select id="country" name="country" class="form-select" aria-label="Country">
+                      <option value="" selected disabled style="color: grey;">Country</option>
+                    <option value="Uganda">Uganda</option>
+                    <option value="Kenya">Kenya</option>
+                    <option value="Tanzania">Tanzania</option>
+                    <option value="Rwanda">Rwanda</option>
+                    <option value="Burundi">Burundi</option>
+                  </select>
+            </div>
+          </div>
+          <fieldset>
+            <legend style="color: grey; font-weight: bold;">Contact</legend>
+            <hr>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <div style="flex-basis: 45%;">
+                <input type="tel" id="phone1" name="phone1" placeholder="Phone Number 1">
+                <small id="phoneErr1"></small>
+              </div>
+              <div style="flex-basis: 45%;">
+                <input type="tel" id="phone2" name="phone2" placeholder="Phone Number 2">
+                <small id="phoneErr2"></small>
+              </div>
+            </div>
+            <div style="margin-top: 1em;">
+              <input style="width: 100%;" type="email" id="email" name="email" placeholder="Email">
+              <small id="emailErr"></small>
+            </div>
+          </fieldset>
+          
+          <div>
+            <button style="float: right; margin:10px; width: 30vw; font-weight: bold; color: white; border: 2px solid #f0ad4e; background-color: #f0ad4e;" id="submit" type="submit" class="btn btn-warning btn-lg">Submit</button>
+        </div>
+        
+
+    </fieldset>
+    </form>
+</div>
+</head>
+<body>
+    
+</body>
+<script src="/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+</html>
