@@ -23,10 +23,10 @@ Install the required dependencies
 Run the Django development server
 
 #### Usage
-Access the registration form through the URL: http://localhost:8000/registration/
-Fill in the required fields with accurate information
-Submit the form
-Upon successful validation and data storage, a success message will be displayed to the user.
+Access the registration form through the URL: http://localhost:8000/registration/ 
+Fill in the required fields with accurate information 
+Submit the form 
+Upon successful validation and data storage, a success message will be displayed to the user. 
 
 #### Here is what I created:
 ![image](https://user-images.githubusercontent.com/106011252/235121365-01725ae7-7507-4cc4-a059-edd7e97874bf.png)
