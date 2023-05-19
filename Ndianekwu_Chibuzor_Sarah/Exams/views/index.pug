@@ -1,0 +1,55 @@
+meta(charset="UTF-8")
+meta(http-equiv="X-UA-Compatible", content="IE=edge")
+meta(name="viewport", content="width=device-width,initial-scale=1")
+link(href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css", rel="stylesheet", integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC", crossorigin="anonymous")
+link(rel="stylesheet", href="index.css")
+title Document
+.bg1
+  div
+    h1.title.
+      
+      GENQ KYC FORM
+      
+  div
+    h3.bio Bio Data
+    .border
+  div
+    form(method="post", name="" onsubmit="return validation()", action="/")
+      .name
+        input#fname(type="type", name="firstname" placeholder="First Name")
+        input#lname(type="type", name="lastname" placeholder="Last Name")
+      .name
+        input#dob(type="date",name="dob" placeholder="Date of Birth")
+        select#gender(name='gender')
+          option(value='') Select your gender
+          option(value='male') male
+          option(value='female') female
+         
+      div
+        h3.bio location
+        .border
+      .name
+        select#country(name='country')
+          option(value='') Select Country of resident
+          option(value='uganda') Uganda
+          option(value='kenya') Kenya
+          option(value='tanzania') Tanzania
+          option(value='rwanda') Rwanda
+          option(value='burundi') Burundi
+        input#state(type="type", name="state" placeholder="State/District")
+      .name
+        input#town(type="type", name="town" placeholder="town")
+        input#zip(type="type", name="zipcode" placeholder="Zip code")
+      div
+        h3.bio Contacts and Address
+        .border
+      .name
+        input#ph1(type="number", name="phone1" placeholder="Phone Number1")
+        input#ph2(type="number", name="phone2" placeholder="Phone Number2")
+      .name
+        input#email(type="email", name="email" placeholder="Email")
+      button(type="submit") SUBMIT
+script(src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js", integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM", crossorigin="anonymous")
+script(src="index.js")
+script.
+

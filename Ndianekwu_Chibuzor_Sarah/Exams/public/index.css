@@ -1,0 +1,72 @@
+.body{
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+    width: 50%;
+}
+
+.bg1{
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: 1px solid grey;
+    width: fit-content;
+    display: block;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: white;
+}
+
+.title{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding: 5px 200px;
+}
+
+.bio{
+    color:rgb(159, 162, 164);
+    margin-bottom: 0px;
+    text-decoration: solid;
+    
+}
+
+.border{
+    width: 100%;
+    height: 6px;
+    margin-top: 0px;
+    padding-top: 0px;
+    background-color: rgb(159, 162, 164);
+}
+.name{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input,select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  button {
+    padding: 10px 60px;
+    background-color: #e49960;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    margin-left: 500px;
+  }
+
